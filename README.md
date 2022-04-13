@@ -9,3 +9,16 @@
 
 ***
 - 指令执行js时传递参数
+***
+- npm root -g 全局包地址
+```javascript
+当执行myPkg指令,就会执行对应的文件
+"bin":{
+    "myPkg":"index.js"
+}
+```
+***
+- 进入my-pkg
+- npm link -> 将本地包拷贝到全局
+- my-pkg修改时, 需要重新link
+***
